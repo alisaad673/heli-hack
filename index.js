@@ -129,7 +129,7 @@ export default () => {
         })
     }
 
-    let p1 = loadModel( { filePath: baseUrl, fileName: 'flying-machine.glb', pos: { x: 0, y: 0, z: 0 } } ).then( result => { vehicleObj = result } );
+    let p1 = loadModel( { filePath: baseUrl, fileName: 'copter_variant1_v1_vian.glb', pos: { x: 0, y: 0, z: 0 } } ).then( result => { vehicleObj = result } );
 
     let loadPromisesArr = [ p1 ];
 
